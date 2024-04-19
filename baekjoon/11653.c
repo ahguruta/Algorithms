@@ -7,7 +7,7 @@ int main() {
 	
 	for (b = 2; b <= a; b++) {
 		while (a % b == 0) {
-			printf("%d ", b);
+			printf("%d\n", b);
 			a /= b;
 		}
 	}
